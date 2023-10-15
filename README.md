@@ -1,7 +1,13 @@
 ![Java 11+](https://img.shields.io/badge/Java-11%2B-informational)
 
 # Java Bindings for [Qwen.cpp](https://github.com/QwenLM/qwen.cpp)
-This repository provides Java bindings for the c++ library.
+This repository provides Java bindings for the `qwen.cpp` c++ library and high level API for inference Qwen model.
+
+# Prerequisites
+- JDK 11 or higher
+- Operating System Support: macOS and linux(arm64) 
+
+**Please Note: The current project does not support Windows.**
 
 # Quick start
 add maven dependency:
