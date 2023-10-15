@@ -2,7 +2,9 @@
 *.cpp linguist-detectable=true
 
 src/main/cpp/include/jni-linux/*.h linguist-vendored
+src/main/cpp/include/jni-linux/linux/*.h linguist-vendored
 src/main/cpp/include/jni-macos/*.h linguist-vendored
+src/main/cpp/include/jni-macos/darwin/*.h linguist-vendored
 
 *.a linguist-generated=true
 *.so linguist-generated=true
