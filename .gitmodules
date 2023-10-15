@@ -1,0 +1,3 @@
+[submodule "src/main/cpp/qwen.cpp"]
+	path = src/main/cpp/qwen.cpp
+	url = https://github.com/QwenLM/qwen.cpp.git
