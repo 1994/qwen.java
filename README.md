@@ -7,7 +7,7 @@ This repository provides Java bindings for the `qwen.cpp` c++ library and high l
 - JDK 11 or higher
 - Operating System Support: macOS and linux(arm64) 
 
-**Please Note: The current project does not support Windows.**
+**Please Note: The current project does not support Windows. See [here](https://github.com/QwenLM/qwen.cpp/issues/5)**
 
 # Quick start
 add maven dependency:
@@ -29,4 +29,6 @@ try (Qwen qwen = new Qwen(/path/to/qwen/bin, /path/to/qwen/tiktoken) {
     String hello = qwen.generate("hello");
 }
 
+
 ```
+![img.png](img.png)
