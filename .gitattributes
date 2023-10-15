@@ -1,0 +1,6 @@
+*.java linguist-detectable=false
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.a linguist-generated=false
+*.so linguist-generated=false
+*.dylib linguist-generated=false
