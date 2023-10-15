@@ -1,6 +1,9 @@
-*.java linguist-detectable=false
-*.cpp linguist-detectable=false
-*.c linguist-detectable=false
-*.a linguist-generated=false
-*.so linguist-generated=false
-*.dylib linguist-generated=false
+*.java linguist-detectable=true
+*.cpp linguist-detectable=true
+
+src/main/cpp/include/jni-linux/*.h linguist-vendored
+src/main/cpp/include/jni-macos/*.h linguist-vendored
+
+*.a linguist-generated=true
+*.so linguist-generated=true
+*.dylib linguist-generated=true
